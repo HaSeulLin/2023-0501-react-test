@@ -1,0 +1,25 @@
+.slick-dots {
+    margin : 50px auto;
+}
+
+.slick-dots li.slick-active button:before {
+    color : red;
+}
+
+.slick-slide img {
+    margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+    opacity: 0.8;
+    transition: all 0.25s;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    opacity: 1;
+    transition: all 0.25s;
+}
